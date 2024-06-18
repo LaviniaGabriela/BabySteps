@@ -6,27 +6,32 @@
 //
 
 import SwiftUI
-import SwiftData
+import CoreData
+import FirebaseCore
+import FirebaseFirestore
+import FirebaseAuth
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    FirebaseApp.configure()
+
+    return true
+  }
+}
 
 @main
-struct BabyStepsApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+struct SchoolAppApp: App {
+    // register app delegate for Firebase setup
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var firebaseManager = FirebaseManager()
+    @StateObject var userManager = UserManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(firebaseManager)
+                .environmentObject(userManager)
         }
-        .modelContainer(sharedModelContainer)
     }
 }

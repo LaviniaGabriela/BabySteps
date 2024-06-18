@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D4711CE2C223E7000F848FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D4711CD2C223E7000F848FC /* GoogleService-Info.plist */; };
 		9DF02AF52C2221930008FAD2 /* BabyStepsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02AF42C2221930008FAD2 /* BabyStepsApp.swift */; };
 		9DF02AF72C2221930008FAD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02AF62C2221930008FAD2 /* ContentView.swift */; };
 		9DF02AF92C2221930008FAD2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02AF82C2221930008FAD2 /* Item.swift */; };
@@ -15,6 +16,48 @@
 		9DF02B082C2221950008FAD2 /* BabyStepsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B072C2221950008FAD2 /* BabyStepsTests.swift */; };
 		9DF02B122C2221950008FAD2 /* BabyStepsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B112C2221950008FAD2 /* BabyStepsUITests.swift */; };
 		9DF02B142C2221950008FAD2 /* BabyStepsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B132C2221950008FAD2 /* BabyStepsUITestsLaunchTests.swift */; };
+		9DF02B222C22227D0008FAD2 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B212C22227D0008FAD2 /* SideBarView.swift */; };
+		9DF02B252C2223110008FAD2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B242C2223110008FAD2 /* OnboardingView.swift */; };
+		9DF02B282C2223C90008FAD2 /* ModallyMuralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B272C2223C90008FAD2 /* ModallyMuralView.swift */; };
+		9DF02B2A2C2224050008FAD2 /* MuralInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B292C2224050008FAD2 /* MuralInfoView.swift */; };
+		9DF02B2D2C2224540008FAD2 /* MuralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B2C2C2224540008FAD2 /* MuralView.swift */; };
+		9DF02B2F2C22248A0008FAD2 /* AddNewMuralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B2E2C22248A0008FAD2 /* AddNewMuralView.swift */; };
+		9DF02B312C22250B0008FAD2 /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B302C22250B0008FAD2 /* ActivitiesView.swift */; };
+		9DF02B332C2225440008FAD2 /* ActivityDetailSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B322C2225440008FAD2 /* ActivityDetailSheetView.swift */; };
+		9DF02B352C22255E0008FAD2 /* ActivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B342C22255E0008FAD2 /* ActivityCard.swift */; };
+		9DF02B372C2225900008FAD2 /* FoodCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B362C2225900008FAD2 /* FoodCard.swift */; };
+		9DF02B392C2225AE0008FAD2 /* CreateNewMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B382C2225AE0008FAD2 /* CreateNewMenuView.swift */; };
+		9DF02B3C2C22261B0008FAD2 /* StudentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B3B2C22261B0008FAD2 /* StudentListView.swift */; };
+		9DF02B3E2C2226440008FAD2 /* CreateStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B3D2C2226440008FAD2 /* CreateStudentView.swift */; };
+		9DF02B402C2226800008FAD2 /* ParentDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B3F2C2226800008FAD2 /* ParentDiaryView.swift */; };
+		9DF02B422C2226B50008FAD2 /* AnnoucementCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B412C2226B50008FAD2 /* AnnoucementCardView.swift */; };
+		9DF02B442C2226E10008FAD2 /* MiniReportCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B432C2226E10008FAD2 /* MiniReportCardView.swift */; };
+		9DF02B462C22277C0008FAD2 /* AllClassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B452C22277C0008FAD2 /* AllClassesView.swift */; };
+		9DF02B482C22279B0008FAD2 /* StudentDiary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B472C22279B0008FAD2 /* StudentDiary.swift */; };
+		9DF02B4A2C2227C90008FAD2 /* StudentRecordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B492C2227C90008FAD2 /* StudentRecordCardView.swift */; };
+		9DF02B4C2C2228040008FAD2 /* StudentLoginInfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B4B2C2228040008FAD2 /* StudentLoginInfoCardView.swift */; };
+		9DF02B4E2C2228310008FAD2 /* StudentHealthCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B4D2C2228310008FAD2 /* StudentHealthCardView.swift */; };
+		9DF02B502C2228640008FAD2 /* ReportCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B4F2C2228640008FAD2 /* ReportCard.swift */; };
+		9DF02B522C2228E80008FAD2 /* CreateClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B512C2228E80008FAD2 /* CreateClassView.swift */; };
+		9DF02B552C22295F0008FAD2 /* CreateUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B542C22295F0008FAD2 /* CreateUserView.swift */; };
+		9DF02B572C22297F0008FAD2 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B562C22297F0008FAD2 /* LogInView.swift */; };
+		9DF02B592C2229A30008FAD2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B582C2229A30008FAD2 /* ProfileView.swift */; };
+		9DF02B5B2C2229B90008FAD2 /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B5A2C2229B90008FAD2 /* CustomPicker.swift */; };
+		9DF02B5E2C222A260008FAD2 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B5D2C222A260008FAD2 /* ChatView.swift */; };
+		9DF02B602C222A540008FAD2 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B5F2C222A540008FAD2 /* ChatListView.swift */; };
+		9DF02B622C222A860008FAD2 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B612C222A860008FAD2 /* TitleRow.swift */; };
+		9DF02B642C222A970008FAD2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B632C222A970008FAD2 /* Message.swift */; };
+		9DF02B662C222AB40008FAD2 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B652C222AB40008FAD2 /* MessageBubble.swift */; };
+		9DF02B682C222AD50008FAD2 /* SendMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B672C222AD50008FAD2 /* SendMessageView.swift */; };
+		9DF02B6A2C222B0D0008FAD2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B692C222B0D0008FAD2 /* Extension.swift */; };
+		9DF02B6D2C222B3D0008FAD2 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B6C2C222B3D0008FAD2 /* Student.swift */; };
+		9DF02B6F2C222B4F0008FAD2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B6E2C222B4F0008FAD2 /* Data.swift */; };
+		9DF02B712C222BFF0008FAD2 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B702C222BFF0008FAD2 /* FirebaseManager.swift */; };
+		9DF02B732C222C330008FAD2 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF02B722C222C330008FAD2 /* UserManager.swift */; };
+		9DF02B7F2C2233A10008FAD2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF02B7E2C2233A10008FAD2 /* FirebaseAnalytics */; };
+		9DF02B812C2233A10008FAD2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF02B802C2233A10008FAD2 /* FirebaseAuth */; };
+		9DF02B832C2233A10008FAD2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF02B822C2233A10008FAD2 /* FirebaseFirestore */; };
+		9DF02B852C2233A10008FAD2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9DF02B842C2233A10008FAD2 /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D4711CD2C223E7000F848FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9DF02AF12C2221930008FAD2 /* BabySteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabySteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF02AF42C2221930008FAD2 /* BabyStepsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyStepsApp.swift; sourceTree = "<group>"; };
 		9DF02AF62C2221930008FAD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +90,44 @@
 		9DF02B0D2C2221950008FAD2 /* BabyStepsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyStepsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF02B112C2221950008FAD2 /* BabyStepsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyStepsUITests.swift; sourceTree = "<group>"; };
 		9DF02B132C2221950008FAD2 /* BabyStepsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyStepsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DF02B212C22227D0008FAD2 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		9DF02B242C2223110008FAD2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		9DF02B272C2223C90008FAD2 /* ModallyMuralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModallyMuralView.swift; sourceTree = "<group>"; };
+		9DF02B292C2224050008FAD2 /* MuralInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuralInfoView.swift; sourceTree = "<group>"; };
+		9DF02B2C2C2224540008FAD2 /* MuralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuralView.swift; sourceTree = "<group>"; };
+		9DF02B2E2C22248A0008FAD2 /* AddNewMuralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMuralView.swift; sourceTree = "<group>"; };
+		9DF02B302C22250B0008FAD2 /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
+		9DF02B322C2225440008FAD2 /* ActivityDetailSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailSheetView.swift; sourceTree = "<group>"; };
+		9DF02B342C22255E0008FAD2 /* ActivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCard.swift; sourceTree = "<group>"; };
+		9DF02B362C2225900008FAD2 /* FoodCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCard.swift; sourceTree = "<group>"; };
+		9DF02B382C2225AE0008FAD2 /* CreateNewMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewMenuView.swift; sourceTree = "<group>"; };
+		9DF02B3B2C22261B0008FAD2 /* StudentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListView.swift; sourceTree = "<group>"; };
+		9DF02B3D2C2226440008FAD2 /* CreateStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStudentView.swift; sourceTree = "<group>"; };
+		9DF02B3F2C2226800008FAD2 /* ParentDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentDiaryView.swift; sourceTree = "<group>"; };
+		9DF02B412C2226B50008FAD2 /* AnnoucementCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnoucementCardView.swift; sourceTree = "<group>"; };
+		9DF02B432C2226E10008FAD2 /* MiniReportCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniReportCardView.swift; sourceTree = "<group>"; };
+		9DF02B452C22277C0008FAD2 /* AllClassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllClassesView.swift; sourceTree = "<group>"; };
+		9DF02B472C22279B0008FAD2 /* StudentDiary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDiary.swift; sourceTree = "<group>"; };
+		9DF02B492C2227C90008FAD2 /* StudentRecordCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRecordCardView.swift; sourceTree = "<group>"; };
+		9DF02B4B2C2228040008FAD2 /* StudentLoginInfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginInfoCardView.swift; sourceTree = "<group>"; };
+		9DF02B4D2C2228310008FAD2 /* StudentHealthCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHealthCardView.swift; sourceTree = "<group>"; };
+		9DF02B4F2C2228640008FAD2 /* ReportCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportCard.swift; sourceTree = "<group>"; };
+		9DF02B512C2228E80008FAD2 /* CreateClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateClassView.swift; sourceTree = "<group>"; };
+		9DF02B542C22295F0008FAD2 /* CreateUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserView.swift; sourceTree = "<group>"; };
+		9DF02B562C22297F0008FAD2 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		9DF02B582C2229A30008FAD2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9DF02B5A2C2229B90008FAD2 /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		9DF02B5D2C222A260008FAD2 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		9DF02B5F2C222A540008FAD2 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		9DF02B612C222A860008FAD2 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		9DF02B632C222A970008FAD2 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9DF02B652C222AB40008FAD2 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		9DF02B672C222AD50008FAD2 /* SendMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageView.swift; sourceTree = "<group>"; };
+		9DF02B692C222B0D0008FAD2 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9DF02B6C2C222B3D0008FAD2 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9DF02B6E2C222B4F0008FAD2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		9DF02B702C222BFF0008FAD2 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		9DF02B722C222C330008FAD2 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +135,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF02B7F2C2233A10008FAD2 /* FirebaseAnalytics in Frameworks */,
+				9DF02B812C2233A10008FAD2 /* FirebaseAuth in Frameworks */,
+				9DF02B832C2233A10008FAD2 /* FirebaseFirestore in Frameworks */,
+				9DF02B852C2233A10008FAD2 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +159,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D4711CF2C223E7E00F848FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D4711CD2C223E7000F848FC /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9DF02AE82C2221930008FAD2 = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +190,17 @@
 		9DF02AF32C2221930008FAD2 /* BabySteps */ = {
 			isa = PBXGroup;
 			children = (
+				9D4711CF2C223E7E00F848FC /* Resources */,
 				9DF02AF42C2221930008FAD2 /* BabyStepsApp.swift */,
-				9DF02AF62C2221930008FAD2 /* ContentView.swift */,
+				9DF02B702C222BFF0008FAD2 /* FirebaseManager.swift */,
+				9DF02B722C222C330008FAD2 /* UserManager.swift */,
+				9DF02B232C2222DF0008FAD2 /* View */,
+				9DF02B202C2222080008FAD2 /* Navigation */,
+				9DF02B6B2C222B2A0008FAD2 /* Data */,
 				9DF02AF82C2221930008FAD2 /* Item.swift */,
 				9DF02AFA2C2221940008FAD2 /* Assets.xcassets */,
 				9DF02AFC2C2221940008FAD2 /* Preview Content */,
+				9DF02B692C222B0D0008FAD2 /* Extension.swift */,
 			);
 			path = BabySteps;
 			sourceTree = "<group>";
@@ -130,6 +230,103 @@
 			path = BabyStepsUITests;
 			sourceTree = "<group>";
 		};
+		9DF02B202C2222080008FAD2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9DF02AF62C2221930008FAD2 /* ContentView.swift */,
+				9DF02B212C22227D0008FAD2 /* SideBarView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		9DF02B232C2222DF0008FAD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9DF02B242C2223110008FAD2 /* OnboardingView.swift */,
+				9DF02B2B2C2224240008FAD2 /* Activities */,
+				9DF02B262C2223A60008FAD2 /* Mural */,
+				9DF02B3A2C2225D20008FAD2 /* Student */,
+				9DF02B5C2C2229F00008FAD2 /* Chat */,
+				9DF02B532C2229110008FAD2 /* ProfileAndUser */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9DF02B262C2223A60008FAD2 /* Mural */ = {
+			isa = PBXGroup;
+			children = (
+				9DF02B272C2223C90008FAD2 /* ModallyMuralView.swift */,
+				9DF02B292C2224050008FAD2 /* MuralInfoView.swift */,
+				9DF02B2C2C2224540008FAD2 /* MuralView.swift */,
+				9DF02B2E2C22248A0008FAD2 /* AddNewMuralView.swift */,
+			);
+			path = Mural;
+			sourceTree = "<group>";
+		};
+		9DF02B2B2C2224240008FAD2 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				9DF02B302C22250B0008FAD2 /* ActivitiesView.swift */,
+				9DF02B322C2225440008FAD2 /* ActivityDetailSheetView.swift */,
+				9DF02B342C22255E0008FAD2 /* ActivityCard.swift */,
+				9DF02B362C2225900008FAD2 /* FoodCard.swift */,
+				9DF02B382C2225AE0008FAD2 /* CreateNewMenuView.swift */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		9DF02B3A2C2225D20008FAD2 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				9DF02B3B2C22261B0008FAD2 /* StudentListView.swift */,
+				9DF02B3D2C2226440008FAD2 /* CreateStudentView.swift */,
+				9DF02B3F2C2226800008FAD2 /* ParentDiaryView.swift */,
+				9DF02B412C2226B50008FAD2 /* AnnoucementCardView.swift */,
+				9DF02B432C2226E10008FAD2 /* MiniReportCardView.swift */,
+				9DF02B452C22277C0008FAD2 /* AllClassesView.swift */,
+				9DF02B472C22279B0008FAD2 /* StudentDiary.swift */,
+				9DF02B492C2227C90008FAD2 /* StudentRecordCardView.swift */,
+				9DF02B4B2C2228040008FAD2 /* StudentLoginInfoCardView.swift */,
+				9DF02B4D2C2228310008FAD2 /* StudentHealthCardView.swift */,
+				9DF02B4F2C2228640008FAD2 /* ReportCard.swift */,
+				9DF02B512C2228E80008FAD2 /* CreateClassView.swift */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		9DF02B532C2229110008FAD2 /* ProfileAndUser */ = {
+			isa = PBXGroup;
+			children = (
+				9DF02B542C22295F0008FAD2 /* CreateUserView.swift */,
+				9DF02B562C22297F0008FAD2 /* LogInView.swift */,
+				9DF02B582C2229A30008FAD2 /* ProfileView.swift */,
+				9DF02B5A2C2229B90008FAD2 /* CustomPicker.swift */,
+			);
+			path = ProfileAndUser;
+			sourceTree = "<group>";
+		};
+		9DF02B5C2C2229F00008FAD2 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				9DF02B5D2C222A260008FAD2 /* ChatView.swift */,
+				9DF02B5F2C222A540008FAD2 /* ChatListView.swift */,
+				9DF02B612C222A860008FAD2 /* TitleRow.swift */,
+				9DF02B632C222A970008FAD2 /* Message.swift */,
+				9DF02B652C222AB40008FAD2 /* MessageBubble.swift */,
+				9DF02B672C222AD50008FAD2 /* SendMessageView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		9DF02B6B2C222B2A0008FAD2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9DF02B6C2C222B3D0008FAD2 /* Student.swift */,
+				9DF02B6E2C222B4F0008FAD2 /* Data.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +343,12 @@
 			dependencies = (
 			);
 			name = BabySteps;
+			packageProductDependencies = (
+				9DF02B7E2C2233A10008FAD2 /* FirebaseAnalytics */,
+				9DF02B802C2233A10008FAD2 /* FirebaseAuth */,
+				9DF02B822C2233A10008FAD2 /* FirebaseFirestore */,
+				9DF02B842C2233A10008FAD2 /* FirebaseFirestoreSwift */,
+			);
 			productName = BabySteps;
 			productReference = 9DF02AF12C2221930008FAD2 /* BabySteps.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +421,9 @@
 				Base,
 			);
 			mainGroup = 9DF02AE82C2221930008FAD2;
+			packageReferences = (
+				9DF02B7D2C2233A10008FAD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9DF02AF22C2221930008FAD2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +442,7 @@
 			files = (
 				9DF02AFE2C2221940008FAD2 /* Preview Assets.xcassets in Resources */,
 				9DF02AFB2C2221940008FAD2 /* Assets.xcassets in Resources */,
+				9D4711CE2C223E7000F848FC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +467,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DF02B372C2225900008FAD2 /* FoodCard.swift in Sources */,
+				9DF02B402C2226800008FAD2 /* ParentDiaryView.swift in Sources */,
 				9DF02AF72C2221930008FAD2 /* ContentView.swift in Sources */,
+				9DF02B642C222A970008FAD2 /* Message.swift in Sources */,
+				9DF02B442C2226E10008FAD2 /* MiniReportCardView.swift in Sources */,
+				9DF02B602C222A540008FAD2 /* ChatListView.swift in Sources */,
+				9DF02B3C2C22261B0008FAD2 /* StudentListView.swift in Sources */,
+				9DF02B502C2228640008FAD2 /* ReportCard.swift in Sources */,
+				9DF02B222C22227D0008FAD2 /* SideBarView.swift in Sources */,
+				9DF02B2F2C22248A0008FAD2 /* AddNewMuralView.swift in Sources */,
+				9DF02B2A2C2224050008FAD2 /* MuralInfoView.swift in Sources */,
 				9DF02AF92C2221930008FAD2 /* Item.swift in Sources */,
+				9DF02B712C222BFF0008FAD2 /* FirebaseManager.swift in Sources */,
+				9DF02B392C2225AE0008FAD2 /* CreateNewMenuView.swift in Sources */,
+				9DF02B592C2229A30008FAD2 /* ProfileView.swift in Sources */,
+				9DF02B732C222C330008FAD2 /* UserManager.swift in Sources */,
+				9DF02B3E2C2226440008FAD2 /* CreateStudentView.swift in Sources */,
+				9DF02B252C2223110008FAD2 /* OnboardingView.swift in Sources */,
 				9DF02AF52C2221930008FAD2 /* BabyStepsApp.swift in Sources */,
+				9DF02B6D2C222B3D0008FAD2 /* Student.swift in Sources */,
+				9DF02B662C222AB40008FAD2 /* MessageBubble.swift in Sources */,
+				9DF02B462C22277C0008FAD2 /* AllClassesView.swift in Sources */,
+				9DF02B422C2226B50008FAD2 /* AnnoucementCardView.swift in Sources */,
+				9DF02B552C22295F0008FAD2 /* CreateUserView.swift in Sources */,
+				9DF02B2D2C2224540008FAD2 /* MuralView.swift in Sources */,
+				9DF02B622C222A860008FAD2 /* TitleRow.swift in Sources */,
+				9DF02B4E2C2228310008FAD2 /* StudentHealthCardView.swift in Sources */,
+				9DF02B5E2C222A260008FAD2 /* ChatView.swift in Sources */,
+				9DF02B5B2C2229B90008FAD2 /* CustomPicker.swift in Sources */,
+				9DF02B352C22255E0008FAD2 /* ActivityCard.swift in Sources */,
+				9DF02B522C2228E80008FAD2 /* CreateClassView.swift in Sources */,
+				9DF02B332C2225440008FAD2 /* ActivityDetailSheetView.swift in Sources */,
+				9DF02B572C22297F0008FAD2 /* LogInView.swift in Sources */,
+				9DF02B4C2C2228040008FAD2 /* StudentLoginInfoCardView.swift in Sources */,
+				9DF02B282C2223C90008FAD2 /* ModallyMuralView.swift in Sources */,
+				9DF02B482C22279B0008FAD2 /* StudentDiary.swift in Sources */,
+				9DF02B6F2C222B4F0008FAD2 /* Data.swift in Sources */,
+				9DF02B312C22250B0008FAD2 /* ActivitiesView.swift in Sources */,
+				9DF02B682C222AD50008FAD2 /* SendMessageView.swift in Sources */,
+				9DF02B4A2C2227C90008FAD2 /* StudentRecordCardView.swift in Sources */,
+				9DF02B6A2C222B0D0008FAD2 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +837,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DF02B7D2C2233A10008FAD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DF02B7E2C2233A10008FAD2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DF02B7D2C2233A10008FAD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		9DF02B802C2233A10008FAD2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DF02B7D2C2233A10008FAD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9DF02B822C2233A10008FAD2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DF02B7D2C2233A10008FAD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9DF02B842C2233A10008FAD2 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DF02B7D2C2233A10008FAD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9DF02AE92C2221930008FAD2 /* Project object */;
 }
